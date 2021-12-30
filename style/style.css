@@ -1,0 +1,58 @@
+.total {
+    width: 30%;
+    border-radius: 25px;
+    padding: 50px;
+    margin-top: 10%;
+    margin-left: 35%;
+    background-color: lightgray;
+    text-align: center;
+    
+
+}
+img {
+    width: 30%;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.titudinero input {
+    border-radius: 5px;
+    margin: 20px;
+    padding: 10px;
+    border: solid 2px rgb(90, 126, 184);
+    width: 400px;
+}
+.titumoneda #moneda1 {
+    width: 180px;
+    padding: 5px;
+    border: solid 2px rgb(90, 126, 184);
+    border-radius: 15px;
+}
+.titumoneda #moneda2 {
+    width: 180px;
+    padding: 5px;
+    border: solid 2px rgb(90, 126, 184);
+    border-radius: 15px;
+}
+.total #enviar {
+    background-color: chartreuse;
+    border-radius: 5px;
+    border: solid 2px green;
+    width: 100px;
+    padding: 5px;
+}
+
+.resultado p {
+
+    font-size: 20px;
+    margin: 10px;
+    text-align: center;
+}
+.contenedorResultado input {
+    border-radius: 5px;
+    padding: 10px;
+    border: solid 2px rgb(90, 126, 184);
+    width: 400px;
+}
+
+

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Conversor de Divisas</title>
+</head>
+
+<body>
+    <div class="total">
+        <img src="./imagenes/imagendinero2.png">
+
+        <form>
+            <div class="titudinero">
+                
+                <input type="text" id="dinero" placeholder="Cantidad de Dinero" ><br>
+            </div>
+
+            <div class="titumoneda">
+               
+                <select name="moneda" id="moneda1" >
+                    <option value="0">Elige tu moneda</option>
+                    <option value="1">Dolar</option>
+                    <option value="2">Peso Mexicano</option>
+                    <option value="3">Peso Colombiano</option>
+                    <option value="4">Euro</option>
+                    <option value="5">Libra Esterlina</option>
+                </select>
+
+               
+                <select name="moneda2" id="moneda2" >
+                    <option value="0">Elige tu moneda</option>
+                    <option value="1">Dolar</option>
+                    <option value="2">Peso Mexicano</option>
+                    <option value="3">Peso Colombiano</option>
+                    <option value="4">Euro</option>
+                    <option value="5">Libra Esterlina</option>
+                </select>
+                <input type="submit" value="Convertir" onclick=resul() id="enviar"><br>
+
+                <!-- <div class = "contenedorResultado">
+                <p class = "texto">Resultado</p>
+                <input type="text" name="resultado" id="resul">
+                </div> -->
+
+            </div>
+        </form>
+    </div>
+<script src="./scripts/script.js"></script>
+</body>
+
+</html>
